@@ -1,0 +1,48 @@
+#app {
+  text-align: center;
+}
+
+.output_canvas {
+  max-height: 90vh;
+  max-width: 90vw;
+  transform: scaleX(-1);
+  margin: 10px;
+  object-fit: unset;
+}
+
+#container {
+  position: relative;
+  display: none;
+}
+
+#inputVideoElement {
+  display: none;
+}
+
+#imageBrowserContainer,
+#videoBrowserContainer,
+#foregroundTypeSelectorContainer {
+  display: none;
+}
+
+#fpsCounter {
+  position: fixed;
+  top: 0.5em;
+  left: 0.5em;
+  font-size: 1.3em;
+}
+
+#githubIcon {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+}
+
+#presenterOffset {
+  direction: rtl;
+}
+#myvideodata {
+  height: 200;
+  width: 300;
+}
